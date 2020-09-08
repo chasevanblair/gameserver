@@ -58,7 +58,7 @@ public class GameServer {
 	}
 	
 	public boolean isFull() {
-		return playerCount <= 10;
+		return playerCount >= 10;
 	}
 
 

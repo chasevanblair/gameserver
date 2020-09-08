@@ -29,6 +29,9 @@ public class TestGameServer {
 		assertEquals(server.timeRemaining(elapsedTime), 2.70, 0.01);
 	}
 	
+	public void testJoin() {
+		assertEquals("Successfully joined", server.join("legend"));
+	}
 	
 
 }
